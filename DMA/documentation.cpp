@@ -14,11 +14,11 @@ int main()
  this is an example of an implicit typecasting.*/
 
 
-//  int i=65;
-//  int *p=&i;
-//  char *pc=(char*)p;
-//  cout<<*p<<endl;
-//  cout<<*pc<<endl;
+ int i=65;
+ int *p=&i;
+ char *pc=(char*)p;
+ cout<<*p<<endl;
+ cout<<*pc<<endl;
 //  cout<<pc<<endl;
 //  cout<<p<<endl;
 // // This is an exmaple of explicit typecasting in pointers.
@@ -58,10 +58,10 @@ int main()
 //     cout << i << endl;
 
 //........................ Dynamic memory allocation(IN HEAP).................................
-int *p=new int;
-cout << *p << endl;
-*p=10;
-cout<<*p<<endl;
+// int *p=new int;
+// cout << *p << endl;
+// *p=10;
+// cout<<*p<<endl;
 
 
 //.......................making an array(in heap)......................
